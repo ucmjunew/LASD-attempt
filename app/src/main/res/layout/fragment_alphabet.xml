@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:lines="26"
+        android:maxLines="26"
+        android:text=
+"
+Adam \n
+Boy \n
+Charles \n
+David \n
+Edward \n
+Frank \n
+George \n
+Henry \n
+Ida \n
+John \n
+King \n
+Lincoln \n
+Mary \n
+Nora \n
+Ocean \n
+Paul \n
+Queen \n
+Robert \n
+Sam \n
+Tom \n
+Union \n
+Victor \n
+William \n
+X-Ray \n
+Young \n
+Zebra"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        /* the next three line is to create the Alphabet item in the Navigation Drawer*/
+        <item android:id="@+id/nav_alphabet"
+            android:icon="@drawable/ic_alphabet"
+            android:title="Alphabet" />
+
+        /* the next three line is to create the 10 Codes item in the Navigation Drawer*/
+        <item android:id="@+id/nav_tencode"
+            android:icon="@drawable/ic_tencode"
+            android:title="Ten Codes" />
+
+        /* the next threze line is to create the 10 Codes item in the Navigation Drawer*/
+        <item android:id="@+id/nav_radiocode"
+            android:icon="@drawable/ic_radiocode"
+            android:title="Radio Codes" />
+    </group>
+
+    <item android:title="Additional Information">
+        <menu>
+            <item
+                android:id="@+id/nav_additional"
+                android:icon="@drawable/ic_additional"
+                android:title="additional" />
+            /* THIS IS WHERE I CAN ADD ADDITIONAL INFORMATION SEPARATED FROM THE REST
+            * https://www.youtube.com/watch?v=fGcMLu1GJEc @ 6:00 CAN HELP WITH THIS
+            */
+        </menu>
+    </item>
+
+</menu>

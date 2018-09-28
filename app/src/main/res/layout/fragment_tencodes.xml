@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text=
+"
+10-1 	Receiving Poorly \n
+10-2 	Receiving Well \n
+10-3 	Stop Transmitting \n
+10-4 	Acknowledged \n
+10-5 	Relay \n
+10-6 	Busy \n
+10-7 	Out of Service \n
+10-8 	In Service \n
+10-9 	Repeat \n
+10-10 	Out of Vehicle, Subject to Call \n
+10-11 	Transmitting too Rapidly \n
+10-13 	Advice Weather and Road Conditions \n
+10-15 	Prisoner in Custody \n
+10-16 	Pick Up Prisoner \n
+10-19 	Return to Indicated Location \n
+10-20 	Location \n
+10-21 	Telephone Indicated Location \n
+10-22 	Cancel \n
+10-23 	Stand By \n
+10-28 	Vehicle Registration and Wants (Complete Registration Information) \n
+10-29 	Vehicle Registration and Wants (Summary Info) \n
+10-29F 	Subject is wanted for a Felony. Use Caution, Advise when Subject in Custody and Ready for Info \n
+10-29FD 	Subject is wanted for a Felony. Considered Armed and Dangerous. Use Extreme Caution, Advise when Subject in Custody and Ready \n
+10-29H 	Are you Clear to Copy Confidential Info? \n
+10-29I 	Subject is Wanted for Infraction \n
+10-29M 	Subject is Wanted for Misdemeanor Crime \n
+10-29P 	Subject is a Parolee, Probationer, Career Criminal, Registered Sex Offender or Registered Arsonist. \n
+10-29T 	Subject is wanted for Traffic Warrant \n
+10-29V 	Property Reported Stolen \n
+10-30  	Transmission does not Conform to Regulations \n
+10-31  	Request Unit and Channel \n
+10-33 	Request Emergency Clearance \n
+10-34 	Request Routine Clearance \n
+10-36 	Correct Time \n
+10-37 	Identify Operator \n
+10-38 	Request Clearance to Run a Subject \n
+10-39 	Request to Clear an Incident \n
+10-97 	Arrived at Scene \n
+"
+        android:textSize="15sp" />
+    </ScrollView>
+
+</RelativeLayout>
