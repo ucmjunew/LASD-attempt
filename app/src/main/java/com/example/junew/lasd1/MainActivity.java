@@ -1,5 +1,6 @@
 package com.example.junew.lasd1;
 
+import android.media.MediaPlayer;
 import android.os.Messenger;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -12,11 +13,15 @@ import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
+import android.content.res.AssetManager;
+
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
+
     private DrawerLayout drawer;
+    MediaPlayer mysong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,18 +53,41 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch(menuItem.getItemId()){
             case R.id.nav_alphabet:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AlphabetFragment()).commit();
+                //mysong = MediaPlayer.create(AlphabetFragment., R.raw.alphabetlistm4a);
+                //mysong.start();
             break;
 
             case R.id.nav_tencode:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TenCodesFragment()).commit();
                 break;
 
-            case R.id.nav_radiocode:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new RadioCodesFragment()).commit();
+            case R.id.nav_code:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CodeFragment()).commit();
                 break;
 
-            case R.id.nav_additional:
-                Toast.makeText(this, "Additional Information", Toast.LENGTH_SHORT).show();
+            case R.id.nav_radiocode1:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new RadioCodesFragment1()).commit();
+                break;
+
+            case R.id.nav_radiocode2:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new RadioCodesFragment2()).commit();
+                break;
+
+            case R.id.nav_radiocode3:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new RadioCodesFragment3()).commit();
+                break;
+
+            case R.id.nav_commands:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CommandFragment()).commit();
+                break;
+            case R.id.nav_creed:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CreedFragment()).commit();
+                break;
+            case R.id.nav_coreValues:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CoreValueFragment()).commit();
+                break;
+            case R.id.nav_missionStatement:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MissionStatementFragment()).commit();
                 break;
         }
 
@@ -80,3 +108,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 }
 
+/* if i ever want to input a toast message
+Toast.makeText(this, "Additional Information", Toast.LENGTH_SHORT).show();
+ */

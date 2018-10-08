@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="
+586	Illegal Parking \n
+586D	Illegal Parking – Driveway \n
+586F	Illegal Parking – Fire Hydrant \n
+586H	Illegal Parking – Handicap \n
+594	Vandalism \n
+602	Trespassing \n
+604	Throwing Objects \n
+646.9	Stalking \n
+647.6	Person Annoying/Molesting Children \n
+653M	Lewd or Threatening Phone Call \n
+901N	Ambulance Needed \n
+901S	Person Sick or Injured – Ambulance Dispatched \n
+901T	Traffic Collison – Ambulance Dispatched \n
+902	Person Sick or Injured \n
+902A	Attempt Suicide \n
+902H	En Route to Hospital \n
+902N	Traffic Accident – No Injuries \n
+902R	Rescue Responding \n
+902T	Traffic Accident – Unknown if Injuries \n
+903	Airplane Accident \n
+903L	Low Flying Aircraft \n
+904	Fire \n
+904A	Fire - Auto \n
+904B	Fire - Brush or Grass \n
+904I	Smoke Investigation \n
+904S	Fire - Structure \n
+904T	Fire - Trash \n
+905A	Abuse to Animals \n
+905B	Animal – Bite \n
+905D	Animal – Dead \n
+905N	Animal - Noisy \n
+905S	Animal – Stray \n
+905V	Animal – Vicious \n
+909	Traffic Stop \n
+909A	Wires Down \n
+909C	Child Locked in Vehicle \n
+909M	Monitoring Traffic \n
+909P	Pedestrian Stop \n
+909R	Radar Enforcement \n
+909S	Safety Hazard \n
+909T	Traffic Hazard \n
+911A	Contact Informant \n
+911B	Contact Officer \n
+911C	Citizen Contact \n
+911N	Do Not Contact Citizen \n
+912	Are we Clear? \n
+913	You are Clear \n
+914C	CHP Notified \n
+914F	Fire Department Notified \n
+914N	Concerned Party Notified \n
+916	Officer Holding Misdemeanor Suspect \n
+916A	Officer Holding Felony Suspect \n
+916B	Citizen Holding Misdemeanor Suspect \n
+916C	Citizen Holding Felony Suspect \n
+"
+            android:textSize="15sp" />
+
+    </ScrollView>
+</RelativeLayout>

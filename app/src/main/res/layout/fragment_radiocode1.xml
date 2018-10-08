@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="
+187	Murder \n
+207	Kidnapping \n
+207A	Attempt Kidnapping \n
+211	Robbery \n
+211E	Robbery (Electronic) \n
+211S	Robbery Alarm – Silent \n
+211SV 	Robbery (Silent w/ Video) \n
+215	Carjacking \n
+242	Battery \n
+245	Assault w/ Deadly Weapon \n
+245GSW	Assault w/ Deadly Weapon - Gun Shot Victim \n
+246	Shooting at an Inhabitant Dwelling \n
+261	Rape \n
+273A	Child Abuse \n
+273S	Child Abuse (E-SCARS) \n
+273.5	Felony Spousal Abuse \n
+288	Sex Crimes Against Children \n
+314	Indecent Exposure \n
+330	Gambling \n
+368	Elderly Abuse \n
+374B	Illegal Dumping \n
+390	Drunk \n
+390P	Possible PCP Use \n
+415	Disturbance \n
+415A	Disturbance - Auto \n
+415B	Disturbance - Business \n
+415D	Disturbance - Drunk \n
+415E	Disturbance – Music or Party \n
+415F	Disturbance – Family \n
+415FT	Disturbance – Fight \n
+415G	Disturbance – Gang Fight \n
+415J	Disturbance – Juveniles \n
+415LT	Disturbance – Landlord/Tenant \n
+415N	Disturbance – Neighbors \n
+417	Person with a Gun \n
+417A	Person with a Knife \n
+417B	Barricaded Suspect \n
+417BH	Barricaded Suspect – Hostage Situation \n
+417S	Shots Fired \n
+422	Terrorist Threats \n
+451	Arson \n
+459	Burglary Alarm – Audible \n
+459AV	Burglary Alarm – Audible w/ Video \n
+459S	Burglary Alarm - Silent \n
+459SV	Burglary Alarm – Silent w/ Video \n
+459V	Burglary (Vehicle) \n
+470	Forgery \n
+480	Hit and Run – Felony \n
+481	Hit and Run – Misdemeanor \n
+483	Hit and Run – Parked Vehicle \n
+487	Grand Theft \n
+488	Petty Theft \n
+488B	Petty Theft – Bicycle \n
+496	Receiving Stolen Property \n
+502	Drunk Driving \n
+503	Vehicle Theft \n
+503A	Recovered Vehicle \n
+504	Tempering w/ Vehicle \n
+504A	Vehicle Stripping \n
+510	Speeding or Racing \n
+537	Defrauding an Innkeeper \n
+"
+            android:textSize="15sp" />
+
+    </ScrollView>
+</RelativeLayout>

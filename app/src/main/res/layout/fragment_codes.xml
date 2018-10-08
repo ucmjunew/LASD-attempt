@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text=
+"
+Code 1	Acknowledge Receipt of Message \n
+Code 1M	Monitor Your MDT \n
+Code 1B	Clear Your MDT Buffer \n
+Code 3	Emergency. Use Red Light and Sirens \n
+Code 4	No Further Assistance Needed \n
+Code 4A	Situation is not Secure; However, there are Sufficient Unit at the Location \n
+Code 4I	No Further Action Needed, Information Only \n
+Code 4N	No Assistance Needed. No Evidence of Crime at Location \n
+Code 5	Stake Out. All Units Stay Away, Unless in Response to an Emergency Call \n
+Code 5P	Information Only, an LASD Vehicle Pursuit is Approaching or in the Station Area. Response is not requested nor authorized at this time. \n
+Code 6	Out for Investigation \n
+Code 7	Out of Service to Eat \n
+Code 8	Fire Alarm \n
+Code 9	Pre-Stop Coordination \n
+Code 14 	Resume Normal Operations \n
+Code 20	Notify News Media \n
+Code 77	Possible Ambush, Use Caution \n
+Code 77N	No Answer at Call Back. Use Caution. \n
+"
+        android:textSize="15sp" />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text=
+        "STRETCHING \nClass, our first/next stretching exercise will be (name of stretch)\nPosition of exercise, Move!\nReady, stretch...\n\nNote: On the command 'Class' everyone will assume the position of Attention, whether sitting or standing.n\On the command 'Recover' everyone will assume the standing position of attention.\n\nWhen stretching always start with the LEFT side."
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>
