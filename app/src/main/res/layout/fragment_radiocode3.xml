@@ -52,7 +52,7 @@
 996P	Suspicious Package \n
 996T	Bomb Threat \n
 997	Deputy Needs Help Urgently – District Cars Only. Only Five Units with Shortest ETA to Respond \n
-988	Deputy Involved in Shooting \n
+998	Deputy Involved in Shooting \n
 999	Deputy Needs Help Urgently – All Units Respond \n
 "
             android:textSize="15sp" />

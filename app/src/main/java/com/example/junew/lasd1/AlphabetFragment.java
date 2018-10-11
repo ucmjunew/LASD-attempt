@@ -11,15 +11,16 @@ import android.view.ViewGroup;
 
 public class AlphabetFragment extends Fragment {
 
+MediaPlayer recording;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        //MediaPlayer mysong;
-        //mysong = MediaPlayer.create(this, R.raw.alphabetlist);
-        //mysong.start();
+        recording = MediaPlayer.create(getActivity(), R.raw.alphabetlist);
+        recording.start();
 
         return inflater.inflate(R.layout.fragment_alphabet, container, false);
     }
+
 }
